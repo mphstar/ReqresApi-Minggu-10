@@ -1,7 +1,5 @@
 // ignore_for_file: use_key_in_widget_constructors, prefer_const_constructors, invalid_use_of_protected_member, unnecessary_null_comparison, sort_child_properties_last, prefer_interpolation_to_compose_strings
 
-import 'dart:ffi';
-
 import 'package:api_minggu10/controller.dart';
 import 'package:api_minggu10/get_detail_screen.dart';
 import 'package:flutter/material.dart';
@@ -24,6 +22,7 @@ class GetDataScreen extends StatelessWidget {
           ),
         ],
       ),
+      
       bottomSheet: SafeArea(
         maintainBottomViewPadding: true,
         child: Container(
